@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <!-- Basic Page Needs
+ ================================================== -->
+  <meta charset="utf-8" />
+  <title>Font Awesome, ä¸º Bootstrap è€Œåˆ›é€ çš„å›¾æ ‡å­—ä½“</title>
+  <meta name="description" content="Font Awesome æ˜¯ä¸€å¥—å®Œç¾çš„å›¾æ ‡å­—ä½“ï¼Œä¸»è¦ç›®çš„æ˜¯å’Œ Bootstrap æ­é…ä½¿ç”¨">
+  <meta name="author" content="Bootstrapä¸­æ–‡ç½‘">
+  <meta name="keywords" content="Font Awesome,Bootstrap,CSS,å›¾æ ‡,å­—ä½“,icon font">
+  <!--<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">-->
+
+  <!--[if lt IE 9]>
+  <script src="html5.js" tppabs="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+  <!-- CSS
+ ================================================== -->
+
+  <link rel="stylesheet" href="site.css" tppabs="http://www.bootcss.com/p/font-awesome/assets/css/site.css">
+  <link rel="stylesheet" href="prettify.css" tppabs="http://cdn.bootcss.com/prettify/r224/prettify.css">
+  <link rel="stylesheet" href="font-awesome.min.css" tppabs="http://www.bootcss.com/p/font-awesome/assets/css/font-awesome.min.css">
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="font-awesome-ie7.min.css" tppabs="http://www.bootcss.com/p/font-awesome/assets/css/font-awesome-ie7.min.css">
+  <![endif]-->
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+</head>
+<body data-spy="scroll" data-target=".navbar">
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="#"><i class="icon-flag"></i> Font Awesome</a>
+      <ul class="nav">
+        <li><a href="#whats-new">æ–°ç‰¹æ€§</a></li>
+        <li class="dropdown">
+          <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+            å›¾æ ‡é›†
+            <i class="icon-caret-down"></i>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#icons-new">æ–°å›¾æ ‡</a></li>
+            <li class="divider"></li>
+            <li class="nav-header">æ‰€æœ‰å›¾æ ‡</li>
+            <li><a href="#icons-web-app"><i class="icon-edit"></i> Web åº”ç”¨</a></li>
+            <li><a href="#icons-text-editor"><i class="icon-save"></i> æ–‡æœ¬ç¼–è¾‘å™¨</a></li>
+            <li><a href="#icons-directional"><i class="icon-hand-right"></i> æŒ‡ç¤ºæ–¹å‘</a></li>
+            <li><a href="#icons-video-player"><i class="icon-play"></i>è§†é¢‘æ’­æ”¾å™¨</a></li>
+            <li><a href="#icons-social"><i class="icon-github"></i> SNS</a></li>
+            <li><a href="#icons-medical"><i class="icon-stethoscope"></i> åŒ»ç–—</a></li>
+          </ul>
+        </li>
+        <li><a href="#integration">é›†æˆ</a></li>
+        <li><a href="#examples">æ¡ˆä¾‹</a></li>
+        <li><a href="#contribute">è´¡çŒ®</a></li>
+        <li><a href="#roadmap">è·¯çº¿å›¾</a></li>
+        <li><a href="#license">ç‰ˆæƒåè®®</a></li>
+      </ul>
+      <ul class="nav pull-right">
+        <li><a href="mailto:dave@davegandy.com"><i class="icon-envelope"></i> Me</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="jumbotron">
+<div class="container">
+  <div class="row">
+    <div class="span8">
+      <div class="hero-content">
+        <h1>Font Awesome</h1>
+        <p>å®Œç¾çš„å›¾æ ‡å­—ä½“<br>åªä¸ºBootstrapè®¾è®¡</p>
+        <div class="actions">
+          <a class="btn btn-primary btn-large" href="javascript:if(confirm('https://github.com/FortAwesome/Font-Awesome/archive/v3.2.1.zip  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ÊÇÒ»¸öÊ¹ÓÃÎ´Ö§³ÖĞ­ÒéµÄµØÖ·(ÀıÈç: gopher)¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='https://github.com/FortAwesome/Font-Awesome/archive/v3.2.1.zip'" tppabs="https://github.com/FortAwesome/Font-Awesome/archive/v3.2.1.zip">
+            <i class="icon-download icon-2x pull-left"></i>
+            ä¸‹è½½ Font Awesome 3.0</a>
+          <a class="btn btn-large btn-github" href="javascript:if(confirm('https://github.com/FortAwesome/Font-Awesome  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ÊÇÒ»¸öÊ¹ÓÃÎ´Ö§³ÖĞ­ÒéµÄµØÖ·(ÀıÈç: gopher)¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='https://github.com/FortAwesome/Font-Awesome'" tppabs="https://github.com/FortAwesome/Font-Awesome" target="_blank">
+            <i class="icon-github icon-2x pull-left"></i>
+            View Project<br>on GitHub</a>
+        </div>
+        <div class="shameless-self-promotion">
+          Version 3.0.2 â€¢ Created &amp; Maintained by Dave Gandy
+        </div>
+      </div>
+    </div>
+    <div class="span4">
+      <div id="iconCarousel" class="carousel slide">
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+          <div class="active item"><div><i class="icon-flag"></i></div></div>
+          <div class="item"><div><i class="icon-cloud-download"></i></div></div>
+          <div class="item"><div><i class="icon-lightbulb"></i></div></div>
+          <div class="item"><div><i class="icon-group"></i></div></div>
+          <div class="item"><div><i class="icon-ambulance"></i></div></div>
+          <div class="item"><div><i class="icon-star-empty"></i></div></div>
+          <div class="item"><div><i class="icon-envelope"></i></div></div>
+          <div class="item"><div><i class="icon-coffee"></i></div></div>
+          <div class="item"><div><i class="icon-medkit"></i></div></div>
+          <div class="item"><div><i class="icon-book"></i></div></div>
+          <div class="item"><div><i class="icon-fighter-jet"></i></div></div>
+          <div class="item"><div><i class="icon-edit"></i></div></div>
+          <div class="item"><div><i class="icon-search"></i></div></div>
+          <div class="item"><div><i class="icon-beer"></i></div></div>
+          <div class="item"><div><i class="icon-quote-left"></i></div></div>
+          <div class="item"><div><i class="icon-stethoscope"></i></div></div>
+          <div class="item"><div><i class="icon-heart-empty"></i></div></div>
+          <div class="item"><div><i class="icon-thumbs-up"></i></div></div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#iconCarousel" data-slide="prev">
+          <i class="icon-arrow-left"></i></a>
+        <a class="carousel-control right" href="#iconCarousel" data-slide="next">
+          <i class="icon-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<div id="social-buttons">
+  <div class="container">
+    <span>
+     
+    </span>
+  </div>
+</div>
+
+<div class="container">
+<section id="why" class="clearfix">
+  <div class="row">
+    <div class="span4">
+      <h4><i class="icon-flag"></i> ä¸€ä¸ªå­—ä½“æ–‡ä»¶ï¼Œ 249 ä¸ªå›¾æ ‡</h4>
+      ä¸€ä¸ªå­—ä½“æ–‡ä»¶åŒ…å«äº†æ‰€æœ‰å›¾æ ‡ã€‚Font Awesome åŠ©ä½ å®Œæ•´è¡¨è¾¾webé¡µé¢ä¸Šæ¯ä¸ªåŠ¨ä½œçš„å«ä¹‰ã€‚
+    </div>
+    <div class="span4">
+      <h4><i class="icon-pencil"></i> ç”¨CSSæ§åˆ¶æ ·å¼</h4>
+      ç”¨CSSèƒ½éå¸¸å®¹æ˜“çš„æ”¹å˜è¿™äº›å›¾æ ‡çš„é¢œè‰²ã€å¤§å°ã€é˜´å½±ä»¥åŠä»»ä½•CSSèƒ½æ§åˆ¶çš„å±æ€§ã€‚
+    </div>
+    <div class="span4">
+      <h4><i class="icon-fullscreen"></i> æ— é™ç¼©æ”¾</h4>
+      çŸ¢é‡å›¾æ„å‘³ç€æ¯ä¸ªå›¾æ ‡éƒ½èƒ½åœ¨æ‰€æœ‰å¤§å°çš„å±å¹•ä¸Šå®Œç¾å‘ˆç°ã€‚
+    </div>
+  </div>
+  <div class="row">
+    <div class="span4">
+      <h4><i class="icon-beer"></i> ä¸ªäººã€å•†ä¸šå‡å¯è‡ªç”±ä½¿ç”¨</h4>
+      Font Awesomeæ˜¯å®Œå…¨å…è´¹çš„ï¼Œæ— è®ºä¸ªäººè¿˜æ˜¯å•†ä¸šä½¿ç”¨ã€‚è¯¦è§ <a href="#license">åè®®</a>ã€‚
+    </div>
+    <div class="span4">
+      <h4><i class="icon-ok"></i> æ”¯æŒIE7+</h4>
+      Font Awesomeæ”¯æŒIE7åŠä»¥ä¸Šæµè§ˆå™¨ã€‚ä¸è¿‡ä½ è¦æ˜¯å¿…é¡»ç”¨åœ¨è¿™ç§è¿‡æ—¶çš„æµè§ˆå™¨ä¸Šè¯ï¼Œæˆ‘åªèƒ½è¡¨ç¤ºåŒæƒ…ï¼
+    </div>
+    <div class="span4">
+      <h4><i class="icon-eye-open"></i> åœ¨Retinaå±å¹•ä¸Šä¹Ÿèƒ½å®Œç¾å‘ˆç°</h4>
+      Font Awesome ä¸­åŒ…å«çš„éƒ½æ˜¯çŸ¢é‡å›¾æ ‡ï¼Œåœ¨é«˜åˆ†è¾¨ç‡çš„æ˜¾ç¤ºå™¨ä¸Šä¹Ÿèƒ½å®Œç¾å‘ˆç°ã€‚
+    </div>
+  </div>
+  <div class="row">
+    <div class="span4">
+      <h4><i class="icon-thumbs-up"></i> ä¸“ä¸ºBootstrapè®¾è®¡</h4>
+      Font Awesomeæ˜¯å®Œå…¨ä»å¤´è®¾è®¡çš„æ•´å¥—å›¾æ ‡ï¼Œå®Œå…¨å’Œ<a href="javascript:if(confirm('http://www.bootcss.com/  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ËüÎ»ÓÚÆğÊ¼µØÖ·ÒÔÉèÖÃµÄ±ß½çÒÔÍâµÄÓò»òÂ·¾¶ÖĞ¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='http://www.bootcss.com/'" tppabs="http://www.bootcss.com/" target="_blank">Bootstrap 2.2.2</a>ç‰ˆæœ¬å…¼å®¹.
+    </div>
+    <div class="span4">
+      <h4><i class="icon-tint"></i> è®¾è®¡å¸ˆçš„åŠ©æ‰‹</h4>
+      å®‰è£… FontAwesome.otf å­—ä½“æ–‡ä»¶ï¼Œç„¶ååœ¨<a href="design.html" tppabs="http://www.bootcss.com/p/font-awesome/design.html" target="_blank">è¿™ä¸ªé¡µé¢</a>ç›´æ¥æ‹·è´ç²˜è´´å›¾æ ‡å­—ç¬¦çš„ä»£ç å°±å¯ä»¥ç”¨äºä½ çš„è®¾è®¡ä¸­äº†ã€‚ 
+    </div>
+    <div class="span4">
+      <h4><i class="icon-search"></i> å…¼å®¹å±å¹•é˜…è¯»å™¨</h4>
+      Font Awesome ä¸ä¼šé˜»æ­¢å±å¹•é˜…è¯»å™¨ï¼Œè¿™å’Œå…¶ä»–å›¾æ ‡å­—ä½“çš„è¡Œä¸ºæ–¹å¼å®Œå…¨ä¸åŒã€‚
+    </div>
+  </div>
+</section>
+
+<section id="whats-new">
+  <h2 class="page-header">Font Awesome 3.0 ä¸­çš„æ–°ç‰¹æ€§</h2>
+  <div class="row">
+    <div class="span4">
+      <h4><i class="icon-magic"></i> å®Œç¾çš„ 14px å­—å· </h4>
+      æ¯ä¸ªå›¾æ ‡éƒ½æ˜¯é‡æ–°åˆ¶ä½œçš„ï¼Œå¹¶ä¸”é’ˆå¯¹Bootstrapçš„é»˜è®¤14pxå­—å·åšäº†æœ€å¤§çš„ä¼˜åŒ–ã€‚
+    </div>
+    <div class="span4">
+      <h4><i class="icon-th-large"></i> <a target="_blank"  href="javascript:if(confirm('http://icnfnt.com/  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ËüÎ»ÓÚÆğÊ¼µØÖ·ÒÔÉèÖÃµÄ±ß½çÒÔÍâµÄÓò»òÂ·¾¶ÖĞ¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='http://icnfnt.com/'" tppabs="http://icnfnt.com/">Font Sub-setting</a></h4>
+      Thanks to <a target="_blank" href="javascript:if(confirm('https://twitter.com/grantgordon  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ÊÇÒ»¸öÊ¹ÓÃÎ´Ö§³ÖĞ­ÒéµÄµØÖ·(ÀıÈç: gopher)¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='https://twitter.com/grantgordon'" tppabs="https://twitter.com/grantgordon">@grantgordon</a> and <a target="_blank" href="javascript:if(confirm('https://twitter.com/johnsmclay  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ÊÇÒ»¸öÊ¹ÓÃÎ´Ö§³ÖĞ­ÒéµÄµØÖ·(ÀıÈç: gopher)¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='https://twitter.com/johnsmclay'" tppabs="https://twitter.com/johnsmclay">@johnsmclay</a>, you can <a target="_blank"  href="javascript:if(confirm('http://icnfnt.com/  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ËüÎ»ÓÚÆğÊ¼µØÖ·ÒÔÉèÖÃµÄ±ß½çÒÔÍâµÄÓò»òÂ·¾¶ÖĞ¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='http://icnfnt.com/'" tppabs="http://icnfnt.com/">subset</a> to get just the icons you need.
+    </div>
+    <div class="span4">
+      <h4><i class="icon-legal"></i> <a href="#license">å‹å¥½çš„ç‰ˆæƒåè®®</a></h4>
+      æˆ‘ä»¬éµå¾ª SIL å¼€æ”¾å­—ä½“åè®®ï¼Œä»£ç éµå¾ª MIT åè®®ã€‚æ²¡æœ‰è¿‡å¤šçš„æŸç¼šï¼Œå¸¦ç»™ä½ æ›´å¤šè‡ªç”±ã€‚ 
+    </div>
+  </div>
+  <div class="row">
+    <div class="span4">
+      <h4><i class="icon-lightbulb"></i> 3.0ç‰ˆæœ¬æ–°å¢ 40 ä¸ªå…¨æ–°çš„å›¾æ ‡</h4>
+      æˆ‘ä»¬æ‹¥æœ‰æ´»è·ƒçš„ç¤¾åŒºï¼Œè†å¬å¤§ä¼—çš„éœ€æ±‚ã€‚ <a href="javascript:if(confirm('https://github.com/FortAwesome/Font-Awesome  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ÊÇÒ»¸öÊ¹ÓÃÎ´Ö§³ÖĞ­ÒéµÄµØÖ·(ÀıÈç: gopher)¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='https://github.com/FortAwesome/Font-Awesome'" tppabs="https://github.com/FortAwesome/Font-Awesome" target="_blank">Font Awesome GitHub project</a>.
+    </div>
+    <div class="span4">
+      <h4><i class="icon-spinner icon-spin"></i> <a href="#examples">æ–°æ ·å¼</a></h4>
+      <a href="#examples">New styles</a> for animated spinning icons, icons with 2x-4x size multipliers, icon borders, & more.
+    </div>
+    <div class="span4">
+      <h4><i class="icon-resize-small"></i> ç˜¦èº« 28% </h4>
+      è™½ç„¶å¢åŠ äº† 16% çš„å›¾æ ‡ï¼Œ3.0 ç‰ˆæœ¬çš„ä½“ç§¯å´å˜å¾—æ›´å°äº†ã€‚ Font Awesome è¿˜å¯ä»¥å®šåˆ¶ï¼Œå°†ä½ ä¸éœ€è¦çš„å›¾æ ‡å»æ‰ã€‚
+    </div>
+  </div>
+</section>
+
+<section id="icons-new" class="row">
+  <div class="span12">
+    <h2 class="page-header">3.0 ç‰ˆæœ¬ä¸­æ–°å¢çš„å›¾æ ‡</h2>
+    <p>
+      Font Awesome 3.0ç‰ˆæœ¬ä¸­æ–°å¢äº†40ä¸ªå…¨æ–°çš„å›¾æ ‡ã€‚å¦‚æœä½ éœ€è¦æ›´å¤šæ–°å›¾æ ‡ï¼Œå¯ä»¥åœ¨
+      <a href="javascript:if(confirm('https://github.com/FortAwesome/Font-Awesome  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ÊÇÒ»¸öÊ¹ÓÃÎ´Ö§³ÖĞ­ÒéµÄµØÖ·(ÀıÈç: gopher)¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='https://github.com/FortAwesome/Font-Awesome'" tppabs="https://github.com/FortAwesome/Font-Awesome" target="_blank">Font Awesome GitHub project</a> æå‡ºéœ€æ±‚ï¼Œæˆ–è€…ï¼Œä½ ä¹Ÿå¯ä»¥ <a href="#contribute">è´¡çŒ®ä½ åˆ›é€ çš„å›¾æ ‡</a>ã€‚
+    </p>
+  </div>
+
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-cloud-download"></i> icon-cloud-download</li>
+      <li><i class="icon-cloud-upload"></i> icon-cloud-upload</li>
+      <li><i class="icon-lightbulb"></i> icon-lightbulb</li>
+      <li><i class="icon-exchange"></i> icon-exchange</li>
+      <li><i class="icon-bell-alt"></i> icon-bell-alt</li>
+      <li><i class="icon-file-alt"></i> icon-file-alt</li>
+      <li><i class="icon-beer"></i> icon-beer</li>
+      <li><i class="icon-coffee"></i> icon-coffee</li>
+      <li><i class="icon-food"></i> icon-food</li>
+      <li><i class="icon-fighter-jet"></i> icon-fighter-jet</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-user-md"></i> icon-user-md</li>
+      <li><i class="icon-stethoscope"></i> icon-stethoscope</li>
+      <li><i class="icon-suitcase"></i> icon-suitcase</li>
+      <li><i class="icon-building"></i> icon-building</li>
+      <li><i class="icon-hospital"></i> icon-hospital</li>
+      <li><i class="icon-ambulance"></i> icon-ambulance</li>
+      <li><i class="icon-medkit"></i> icon-medkit</li>
+      <li><i class="icon-h-sign"></i> icon-h-sign</li>
+      <li><i class="icon-plus-sign-alt"></i> icon-plus-sign-alt</li>
+      <li><i class="icon-spinner"></i> icon-spinner</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-angle-left"></i> icon-angle-left</li>
+      <li><i class="icon-angle-right"></i> icon-angle-right</li>
+      <li><i class="icon-angle-up"></i> icon-angle-up</li>
+      <li><i class="icon-angle-down"></i> icon-angle-down</li>
+      <li><i class="icon-double-angle-left"></i> icon-double-angle-left</li>
+      <li><i class="icon-double-angle-right"></i> icon-double-angle-right</li>
+      <li><i class="icon-double-angle-up"></i> icon-double-angle-up</li>
+      <li><i class="icon-double-angle-down"></i> icon-double-angle-down</li>
+      <li><i class="icon-circle-blank"></i> icon-circle-blank</li>
+      <li><i class="icon-circle"></i> icon-circle</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-desktop"></i> icon-desktop</li>
+      <li><i class="icon-laptop"></i> icon-laptop</li>
+      <li><i class="icon-tablet"></i> icon-tablet</li>
+      <li><i class="icon-mobile-phone"></i> icon-mobile-phone</li>
+      <li><i class="icon-quote-left"></i> icon-quote-left</li>
+      <li><i class="icon-quote-right"></i> icon-quote-right</li>
+      <li><i class="icon-reply"></i> icon-reply</li>
+      <li><i class="icon-github-alt"></i> icon-github-alt</li>
+      <li><i class="icon-folder-close-alt"></i> icon-folder-close-alt</li>
+      <li><i class="icon-folder-open-alt"></i> icon-folder-open-alt</li>
+    </ul>
+  </div>
+</section>
+
+<section id="icons-web-app" class="row">
+  <div class="span12">
+    <h2 class="page-header">é€‚åˆ Web åº”ç”¨çš„å›¾æ ‡</h2>
+  </div>
+
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-adjust"></i> icon-adjust</li>
+      <li><i class="icon-asterisk"></i> icon-asterisk</li>
+      <li><i class="icon-ban-circle"></i> icon-ban-circle</li>
+      <li><i class="icon-bar-chart"></i> icon-bar-chart</li>
+      <li><i class="icon-barcode"></i> icon-barcode</li>
+      <li><i class="icon-beaker"></i> icon-beaker</li>
+      <li><i class="icon-beer"></i> icon-beer</li>
+      <li><i class="icon-bell"></i> icon-bell</li>
+      <li><i class="icon-bell-alt"></i> icon-bell-alt</li>
+      <li><i class="icon-bolt"></i> icon-bolt</li>
+      <li><i class="icon-book"></i> icon-book</li>
+      <li><i class="icon-bookmark"></i> icon-bookmark</li>
+      <li><i class="icon-bookmark-empty"></i> icon-bookmark-empty</li>
+      <li><i class="icon-briefcase"></i> icon-briefcase</li>
+      <li><i class="icon-bullhorn"></i> icon-bullhorn</li>
+      <li><i class="icon-calendar"></i> icon-calendar</li>
+      <li><i class="icon-camera"></i> icon-camera</li>
+      <li><i class="icon-camera-retro"></i> icon-camera-retro</li>
+      <li><i class="icon-certificate"></i> icon-certificate</li>
+      <li><i class="icon-check"></i> icon-check</li>
+      <li><i class="icon-check-empty"></i> icon-check-empty</li>
+      <li><i class="icon-circle"></i> icon-circle</li>
+      <li><i class="icon-circle-blank"></i> icon-circle-blank</li>
+      <li><i class="icon-cloud"></i> icon-cloud</li>
+      <li><i class="icon-cloud-download"></i> icon-cloud-download</li>
+      <li><i class="icon-cloud-upload"></i> icon-cloud-upload</li>
+      <li><i class="icon-coffee"></i> icon-coffee</li>
+      <li><i class="icon-cog"></i> icon-cog</li>
+      <li><i class="icon-cogs"></i> icon-cogs</li>
+      <li><i class="icon-comment"></i> icon-comment</li>
+      <li><i class="icon-comment-alt"></i> icon-comment-alt</li>
+      <li><i class="icon-comments"></i> icon-comments</li>
+      <li><i class="icon-comments-alt"></i> icon-comments-alt</li>
+      <li><i class="icon-credit-card"></i> icon-credit-card</li>
+      <li><i class="icon-dashboard"></i> icon-dashboard</li>
+      <li><i class="icon-desktop"></i> icon-desktop</li>
+      <li><i class="icon-download"></i> icon-download</li>
+      <li><i class="icon-download-alt"></i> icon-download-alt</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-edit"></i> icon-edit</li>
+      <li><i class="icon-envelope"></i> icon-envelope</li>
+      <li><i class="icon-envelope-alt"></i> icon-envelope-alt</li>
+      <li><i class="icon-exchange"></i> icon-exchange</li>
+      <li><i class="icon-exclamation-sign"></i> icon-exclamation-sign</li>
+      <li><i class="icon-external-link"></i> icon-external-link</li>
+      <li><i class="icon-eye-close"></i> icon-eye-close</li>
+      <li><i class="icon-eye-open"></i> icon-eye-open</li>
+      <li><i class="icon-facetime-video"></i> icon-facetime-video</li>
+      <li><i class="icon-fighter-jet"></i> icon-fighter-jet</li>
+      <li><i class="icon-film"></i> icon-film</li>
+      <li><i class="icon-filter"></i> icon-filter</li>
+      <li><i class="icon-fire"></i> icon-fire</li>
+      <li><i class="icon-flag"></i> icon-flag</li>
+      <li><i class="icon-folder-close"></i> icon-folder-close</li>
+      <li><i class="icon-folder-open"></i> icon-folder-open</li>
+      <li><i class="icon-folder-close-alt"></i> icon-folder-close-alt</li>
+      <li><i class="icon-folder-open-alt"></i> icon-folder-open-alt</li>
+      <li><i class="icon-food"></i> icon-food</li>
+      <li><i class="icon-gift"></i> icon-gift</li>
+      <li><i class="icon-glass"></i> icon-glass</li>
+      <li><i class="icon-globe"></i> icon-globe</li>
+      <li><i class="icon-group"></i> icon-group</li>
+      <li><i class="icon-hdd"></i> icon-hdd</li>
+      <li><i class="icon-headphones"></i> icon-headphones</li>
+      <li><i class="icon-heart"></i> icon-heart</li>
+      <li><i class="icon-heart-empty"></i> icon-heart-empty</li>
+      <li><i class="icon-home"></i> icon-home</li>
+      <li><i class="icon-inbox"></i> icon-inbox</li>
+      <li><i class="icon-info-sign"></i> icon-info-sign</li>
+      <li><i class="icon-key"></i> icon-key</li>
+      <li><i class="icon-leaf"></i> icon-leaf</li>
+      <li><i class="icon-laptop"></i> icon-laptop</li>
+      <li><i class="icon-legal"></i> icon-legal</li>
+      <li><i class="icon-lemon"></i> icon-lemon</li>
+      <li><i class="icon-lightbulb"></i> icon-lightbulb</li>
+      <li><i class="icon-lock"></i> icon-lock</li>
+      <li><i class="icon-unlock"></i> icon-unlock</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-magic"></i> icon-magic</li>
+      <li><i class="icon-magnet"></i> icon-magnet</li>
+      <li><i class="icon-map-marker"></i> icon-map-marker</li>
+      <li><i class="icon-minus"></i> icon-minus</li>
+      <li><i class="icon-minus-sign"></i> icon-minus-sign</li>
+      <li><i class="icon-mobile-phone"></i> icon-mobile-phone</li>
+      <li><i class="icon-money"></i> icon-money</li>
+      <li><i class="icon-move"></i> icon-move</li>
+      <li><i class="icon-music"></i> icon-music</li>
+      <li><i class="icon-off"></i> icon-off</li>
+      <li><i class="icon-ok"></i> icon-ok</li>
+      <li><i class="icon-ok-circle"></i> icon-ok-circle</li>
+      <li><i class="icon-ok-sign"></i> icon-ok-sign</li>
+      <li><i class="icon-pencil"></i> icon-pencil</li>
+      <li><i class="icon-picture"></i> icon-picture</li>
+      <li><i class="icon-plane"></i> icon-plane</li>
+      <li><i class="icon-plus"></i> icon-plus</li>
+      <li><i class="icon-plus-sign"></i> icon-plus-sign</li>
+      <li><i class="icon-print"></i> icon-print</li>
+      <li><i class="icon-pushpin"></i> icon-pushpin</li>
+      <li><i class="icon-qrcode"></i> icon-qrcode</li>
+      <li><i class="icon-question-sign"></i> icon-question-sign</li>
+      <li><i class="icon-quote-left"></i> icon-quote-left</li>
+      <li><i class="icon-quote-right"></i> icon-quote-right</li>
+      <li><i class="icon-random"></i> icon-random</li>
+      <li><i class="icon-refresh"></i> icon-refresh</li>
+      <li><i class="icon-remove"></i> icon-remove</li>
+      <li><i class="icon-remove-circle"></i> icon-remove-circle</li>
+      <li><i class="icon-remove-sign"></i> icon-remove-sign</li>
+      <li><i class="icon-reorder"></i> icon-reorder</li>
+      <li><i class="icon-reply"></i> icon-reply</li>
+      <li><i class="icon-resize-horizontal"></i> icon-resize-horizontal</li>
+      <li><i class="icon-resize-vertical"></i> icon-resize-vertical</li>
+      <li><i class="icon-retweet"></i> icon-retweet</li>
+      <li><i class="icon-road"></i> icon-road</li>
+      <li><i class="icon-rss"></i> icon-rss</li>
+      <li><i class="icon-screenshot"></i> icon-screenshot</li>
+      <li><i class="icon-search"></i> icon-search</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-share"></i> icon-share</li>
+      <li><i class="icon-share-alt"></i> icon-share-alt</li>
+      <li><i class="icon-shopping-cart"></i> icon-shopping-cart</li>
+      <li><i class="icon-signal"></i> icon-signal</li>
+      <li><i class="icon-signin"></i> icon-signin</li>
+      <li><i class="icon-signout"></i> icon-signout</li>
+      <li><i class="icon-sitemap"></i> icon-sitemap</li>
+      <li><i class="icon-sort"></i> icon-sort</li>
+      <li><i class="icon-sort-down"></i> icon-sort-down</li>
+      <li><i class="icon-sort-up"></i> icon-sort-up</li>
+      <li><i class="icon-spinner"></i> icon-spinner</li>
+      <li><i class="icon-star"></i> icon-star</li>
+      <li><i class="icon-star-empty"></i> icon-star-empty</li>
+      <li><i class="icon-star-half"></i> icon-star-half</li>
+      <li><i class="icon-tablet"></i> icon-tablet</li>
+      <li><i class="icon-tag"></i> icon-tag</li>
+      <li><i class="icon-tags"></i> icon-tags</li>
+      <li><i class="icon-tasks"></i> icon-tasks</li>
+      <li><i class="icon-thumbs-down"></i> icon-thumbs-down</li>
+      <li><i class="icon-thumbs-up"></i> icon-thumbs-up</li>
+      <li><i class="icon-time"></i> icon-time</li>
+      <li><i class="icon-tint"></i> icon-tint</li>
+      <li><i class="icon-trash"></i> icon-trash</li>
+      <li><i class="icon-trophy"></i> icon-trophy</li>
+      <li><i class="icon-truck"></i> icon-truck</li>
+      <li><i class="icon-umbrella"></i> icon-umbrella</li>
+      <li><i class="icon-upload"></i> icon-upload</li>
+      <li><i class="icon-upload-alt"></i> icon-upload-alt</li>
+      <li><i class="icon-user"></i> icon-user</li>
+      <li><i class="icon-user-md"></i> icon-user-md</li>
+      <li><i class="icon-volume-off"></i> icon-volume-off</li>
+      <li><i class="icon-volume-down"></i> icon-volume-down</li>
+      <li><i class="icon-volume-up"></i> icon-volume-up</li>
+      <li><i class="icon-warning-sign"></i> icon-warning-sign</li>
+      <li><i class="icon-wrench"></i> icon-wrench</li>
+      <li><i class="icon-zoom-in"></i> icon-zoom-in</li>
+      <li><i class="icon-zoom-out"></i> icon-zoom-out</li>
+    </ul>
+  </div>
+</section>
+
+<section id="icons-text-editor" class="row">
+  <div class="span12">
+    <h2 class="page-header">æ–‡æœ¬ç¼–è¾‘å™¨å›¾æ ‡</h2>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-file"></i> icon-file</li>
+      <li><i class="icon-file-alt"></i> icon-file-alt</li>
+      <li><i class="icon-cut"></i> icon-cut</li>
+      <li><i class="icon-copy"></i> icon-copy</li>
+      <li><i class="icon-paste"></i> icon-paste</li>
+      <li><i class="icon-save"></i> icon-save</li>
+      <li><i class="icon-undo"></i> icon-undo</li>
+      <li><i class="icon-repeat"></i> icon-repeat</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-text-height"></i> icon-text-height</li>
+      <li><i class="icon-text-width"></i> icon-text-width</li>
+      <li><i class="icon-align-left"></i> icon-align-left</li>
+      <li><i class="icon-align-center"></i> icon-align-center</li>
+      <li><i class="icon-align-right"></i> icon-align-right</li>
+      <li><i class="icon-align-justify"></i> icon-align-justify</li>
+      <li><i class="icon-indent-left"></i> icon-indent-left</li>
+      <li><i class="icon-indent-right"></i> icon-indent-right</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-font"></i> icon-font</li>
+      <li><i class="icon-bold"></i> icon-bold</li>
+      <li><i class="icon-italic"></i> icon-italic</li>
+      <li><i class="icon-strikethrough"></i> icon-strikethrough</li>
+      <li><i class="icon-underline"></i> icon-underline</li>
+      <li><i class="icon-link"></i> icon-link</li>
+      <li><i class="icon-paper-clip"></i> icon-paper-clip</li>
+      <li><i class="icon-columns"></i> icon-columns</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-table"></i> icon-table</li>
+      <li><i class="icon-th-large"></i> icon-th-large</li>
+      <li><i class="icon-th"></i> icon-th</li>
+      <li><i class="icon-th-list"></i> icon-th-list</li>
+      <li><i class="icon-list"></i> icon-list</li>
+      <li><i class="icon-list-ol"></i> icon-list-ol</li>
+      <li><i class="icon-list-ul"></i> icon-list-ul</li>
+      <li><i class="icon-list-alt"></i> icon-list-alt</li>
+    </ul>
+  </div>
+</section>
+
+<section id="icons-directional" class="row">
+  <div class="span12">
+    <h2 class="page-header">æŒ‡ç¤ºæ–¹å‘çš„å›¾æ ‡</h2>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-angle-left"></i> icon-angle-left</li>
+      <li><i class="icon-angle-right"></i> icon-angle-right</li>
+      <li><i class="icon-angle-up"></i> icon-angle-up</li>
+      <li><i class="icon-angle-down"></i> icon-angle-down</li>
+      <li><i class="icon-arrow-down"></i> icon-arrow-down</li>
+      <li><i class="icon-arrow-left"></i> icon-arrow-left</li>
+      <li><i class="icon-arrow-right"></i> icon-arrow-right</li>
+      <li><i class="icon-arrow-up"></i> icon-arrow-up</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-caret-down"></i> icon-caret-down</li>
+      <li><i class="icon-caret-left"></i> icon-caret-left</li>
+      <li><i class="icon-caret-right"></i> icon-caret-right</li>
+      <li><i class="icon-caret-up"></i> icon-caret-up</li>
+      <li><i class="icon-chevron-down"></i> icon-chevron-down</li>
+      <li><i class="icon-chevron-left"></i> icon-chevron-left</li>
+      <li><i class="icon-chevron-right"></i> icon-chevron-right</li>
+      <li><i class="icon-chevron-up"></i> icon-chevron-up</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-circle-arrow-down"></i> icon-circle-arrow-down</li>
+      <li><i class="icon-circle-arrow-left"></i> icon-circle-arrow-left</li>
+      <li><i class="icon-circle-arrow-right"></i> icon-circle-arrow-right</li>
+      <li><i class="icon-circle-arrow-up"></i> icon-circle-arrow-up</li>
+      <li><i class="icon-double-angle-left"></i> icon-double-angle-left</li>
+      <li><i class="icon-double-angle-right"></i> icon-double-angle-right</li>
+      <li><i class="icon-double-angle-up"></i> icon-double-angle-up</li>
+      <li><i class="icon-double-angle-down"></i> icon-double-angle-down</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-hand-down"></i> icon-hand-down</li>
+      <li><i class="icon-hand-left"></i> icon-hand-left</li>
+      <li><i class="icon-hand-right"></i> icon-hand-right</li>
+      <li><i class="icon-hand-up"></i> icon-hand-up</li>
+      <li><i class="icon-circle"></i> icon-circle</li>
+      <li><i class="icon-circle-blank"></i> icon-circle-blank</li>
+    </ul>
+  </div>
+</section>
+
+<section id="icons-video-player" class="row">
+  <div class="span12">
+    <h2 class="page-header">è§†é¢‘æ’­æ”¾å™¨å›¾æ ‡</h2>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-play-circle"></i> icon-play-circle</li>
+      <li><i class="icon-play"></i> icon-play</li>
+      <li><i class="icon-pause"></i> icon-pause</li>
+      <li><i class="icon-stop"></i> icon-stop</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-step-backward"></i> icon-step-backward</li>
+      <li><i class="icon-fast-backward"></i> icon-fast-backward</li>
+      <li><i class="icon-backward"></i> icon-backward</li>
+      <li><i class="icon-forward"></i> icon-forward</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-fast-forward"></i> icon-fast-forward</li>
+      <li><i class="icon-step-forward"></i> icon-step-forward</li>
+      <li><i class="icon-eject"></i> icon-eject</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-fullscreen"></i> icon-fullscreen</li>
+      <li><i class="icon-resize-full"></i> icon-resize-full</li>
+      <li><i class="icon-resize-small"></i> icon-resize-small</li>
+    </ul>
+  </div>
+</section>
+
+<section id="icons-social" class="row">
+  <div class="span12">
+    <h2 class="page-header">SNSå›¾æ ‡</h2>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-phone"></i> icon-phone</li>
+      <li><i class="icon-phone-sign"></i> icon-phone-sign</li>
+      <li><i class="icon-facebook"></i> icon-facebook</li>
+      <li><i class="icon-facebook-sign"></i> icon-facebook-sign</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-twitter"></i> icon-twitter</li>
+      <li><i class="icon-twitter-sign"></i> icon-twitter-sign</li>
+      <li><i class="icon-github"></i> icon-github</li>
+      <li><i class="icon-github-alt"></i> icon-github-alt</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-github-sign"></i> icon-github-sign</li>
+      <li><i class="icon-linkedin"></i> icon-linkedin</li>
+      <li><i class="icon-linkedin-sign"></i> icon-linkedin-sign</li>
+      <li><i class="icon-pinterest"></i> icon-pinterest</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-pinterest-sign"></i> icon-pinterest-sign</li>
+      <li><i class="icon-google-plus"></i> icon-google-plus</li>
+      <li><i class="icon-google-plus-sign"></i> icon-google-plus-sign</li>
+      <li><i class="icon-sign-blank"></i> icon-sign-blank</li>
+    </ul>
+  </div>
+</section>
+
+<section id="icons-medical" class="row">
+  <div class="span12">
+    <h2 class="page-header">åŒ»ç–—å›¾æ ‡ <small>Want to change healthcare? Work with me at <a href="#kyruus">Kyruus</a>.</small></h2>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-ambulance"></i> icon-ambulance</li>
+      <li><i class="icon-beaker"></i> icon-beaker</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-h-sign"></i> icon-h-sign</li>
+      <li><i class="icon-hospital"></i> icon-hospital</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-medkit"></i> icon-medkit</li>
+      <li><i class="icon-plus-sign-alt"></i> icon-plus-sign-alt</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-stethoscope"></i> icon-stethoscope</li>
+      <li><i class="icon-user-md"></i> icon-user-md</li>
+    </ul>
+  </div>
+</section>
+
+<section id="integration">
+  <h2 class="page-header">é›†æˆ</h2>
+  <p>å°†Font Awesome é›†æˆåˆ° Bootstrap éå¸¸å®¹æ˜“ï¼Œè¿˜å¯ä»¥è¢«å•ç‹¬ä½¿ç”¨ã€‚</p>
+  <div class="row">
+    <div class="span12">
+      <h4>æœ€ç®€å•çš„ Bootstrap + Font Awesome é›†æˆæ–¹å¼</h4>
+    </div>
+    <div class="span3">
+      <p>ä½¿ç”¨è¿™ç§æ–¹å¼å°† Font Awesome é›†æˆåˆ°é»˜è®¤çš„ Bootstrap CSSä¸­ã€‚</p>
+    </div>
+    <div class="span9">
+      <ol>
+        <li>æ‹·è´ Font Awesome å­—ä½“ç›®å½•åˆ°ä½ çš„é¡¹ç›®ä¸­ã€‚</li>
+        <li> font-awesome.min.css æ–‡ä»¶åˆ°ä½ çš„é¡¹ç›®ä¸­ã€‚</li>
+        <li>
+          æ‰“å¼€ä½ çš„é¡¹ç›®ä¸­çš„ font-awesome.min.css æ–‡ä»¶å¹¶ç¼–è¾‘å­—ä½“è·¯å¾„æŒ‡å‘æ­£ç¡®çš„ä½ç½®ã€‚
+          <p class="alert alert-info"><i class="icon-info-sign"></i> å­—ä½“è·¯å¾„æ˜¯ç›¸å¯¹äºä½ çš„ CSS ç›®å½•çš„ã€‚</p>
+        </li>
+        <li>
+          åœ¨htmlæ–‡æ¡£ä¸­çš„ <code>&lt;head&gt;</code> éƒ¨åˆ†ï¼Œå¼•å…¥ font-awesome.min.css æ–‡ä»¶ã€‚
+<pre class="prettyprint linenums">
+&lt;link rel="stylesheet" href="../css/bootstrap.min.css"&gt;
+&lt;link rel="stylesheet" href="../css/font-awesome.min.css"&gt;
+</pre>
+        </li>
+        <li>åœ¨æµè§ˆå™¨ä¸­æ‰“å¼€é¡µé¢ï¼Œæ£€æŸ¥æ˜¯å¦æ­£ç¡®å¯ç”¨äº† Font Awesome!</li>
+      </ol>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span12">
+      <h4>è‡ªå®šä¹‰ Bootstrap + Font Awesome LESSæ–‡ä»¶çš„æ–¹å¼è¿›è¡Œé›†æˆ</h4>
+    </div>
+    <div class="span3">
+      <p>ä¿®æ”¹Bootstrapçš„LESSæ–‡ä»¶ä»¥é›†æˆ Font Awesomeã€‚</p>
+    </div>
+    <div class="span9">
+      <ol>
+        <li>æ‹·è´ Font Awesome å­—ä½“ç›®å½•åˆ°ä½ çš„é¡¹ç›®ä¸­ã€‚</li>
+        <li>æ‹·è´ font-awesome.less æ–‡ä»¶åˆ° bootstrap/less ç›®å½•ã€‚</li>
+        <li>æ‰“å¼€ bootstrap.less æ–‡ä»¶ï¼Œå¹¶å°† <code>@import "sprites.less";</code> æ›¿æ¢ä¸º <code>@import "font-awesome.less";</code></li>
+        <li>
+          æ‰“å¼€ä½ çš„é¡¹ç›®ä¸­çš„ font-awesome.less æ–‡ä»¶ï¼Œå¹¶ç¼–è¾‘ <code>@FontAwesomePath</code> å˜é‡ï¼Œå°†å…¶å€¼æ›¿æ¢ä¸ºæŒ‡å‘å­—ä½“æ–‡ä»¶çš„æ­£ç¡®è·¯å¾„ã€‚
+<pre class="prettyprint linenums">
+@FontAwesomePath:   "../font";
+</pre>
+          <p class="alert alert-info"><i class="icon-info-sign"></i> å­—ä½“è·¯å¾„ç›¸å¯¹äºå­˜æ”¾ç¼–è¯‘ä¹‹åçš„CSSæ–‡ä»¶çš„ç›®å½•ã€‚</p>
+        </li>
+        <li>é‡æ–°ç¼–è¯‘Bootstrapçš„æ‰€æœ‰ LESS æ–‡ä»¶ã€‚å¦‚æœä½ ä½¿ç”¨çš„æ˜¯less.jsè„šæœ¬åŠ¨æ€ç¼–è¯‘çš„è¯å°±èƒ½ç›´æ¥åœ¨æµè§ˆå™¨ä¸­çœ‹åˆ°æ•ˆæœäº†ã€‚</li>
+        <li>åœ¨æµè§ˆå™¨ä¸­æ‰“å¼€é¡µé¢ï¼Œæ£€æŸ¥æ˜¯å¦æ­£ç¡®å¯ç”¨äº† Font Awesome!</li>
+      </ol>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span12">
+      <h4>è‡ªå®šä¹‰ Bootstrap + Font Awesome é›†æˆï¼Œå¹¶ä½¿ç”¨ SASS æˆ– SCSS</h4>
+      <p>æˆ‘ä¹Ÿä»æœªä½¿ç”¨è¿‡SASSæˆ–SCSSï¼Œå¦‚æœæºç åŒ…ä¸­çš„SCSSæˆ–SASSæ–‡ä»¶æœ‰é—®é¢˜çš„è¯è¯·é€šçŸ¥æˆ‘ã€‚</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span12">
+      <h4>ä¸ä½¿ç”¨ Bootstrap?</h4>
+    </div>
+    <div class="span3">
+      <p>Font Awesome works just as well without Twitter Bootstrap.</p>
+    </div>
+    <div class="span9">
+      <ol>
+        <li>Copy the Font Awesome font directory into your project.</li>
+        <li>Copy font-awesome.less or font-awesome.min.css into your project.</li>
+        <li>Open your project's font-awesome.less or font-awesome.min.css and edit the font location to point it to your font directory (see above examples).</li>
+        <li>Check out the examples to start using Font Awesome!</li>
+      </ol>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span12">
+      <h4>éœ€è¦æ”¯æŒ IE7 æµè§ˆå™¨ï¼Ÿ</h4>
+    </div>
+    <div class="span3">
+      <p>Font Awesome supports IE7. If you need it, you have my condolences.</p>
+    </div>
+    <div class="span9">
+      <ol>
+        <li>Get Font Awesome working properly in a modern browser.</li>
+        <li>Copy font-awesome-ie7.min.css into your project.</li>
+        <li>
+          In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome-ie7.min.css.
+<pre class="prettyprint linenums">
+&lt;link rel="stylesheet" href="../css/bootstrap.min.css"&gt;
+&lt;link rel="stylesheet" href="../css/font-awesome.min.css"&gt;
+&lt;!--[if IE 7]&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/font-awesome-ie7.min.css&quot;&gt;
+&lt;![endif]--&gt;
+</pre>
+        </li>
+        <li>Go complain to whoever decided your project needs IE7 support.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section id="examples">
+  <h2 class="page-header">æ¡ˆä¾‹</h2>
+  <p>ä¸‹é¢çš„æ¡ˆä¾‹å¤§éƒ¨åˆ†éƒ½æ˜¯é‡ç”¨ Bootstrap æ–‡æ¡£ä¸­çš„æ¡ˆä¾‹ã€‚</p>
+  <div class="row">
+    <div class="span4">
+      <div class="well well-transparent">
+        <p>Use Font Awesome icons in:</p>
+        <ul class="icons">
+          <li><i class="icon-ok"></i>Bulleted lists (like this one)</li>
+          <li><i class="icon-ok"></i>Buttons</li>
+          <li><i class="icon-ok"></i>Button groups</li>
+          <li><i class="icon-ok"></i>Navigation</li>
+          <li><i class="icon-ok"></i>Prepended form inputs</li>
+          <li><i class="icon-ok"></i>And many more with Custom CSS</li>
+        </ul>
+      </div>
+    </div>
+    <div class="span4">
+      <p>
+        <a class="btn" href="#"><i class="icon-repeat"></i> Reload</a>
+        <a class="btn btn-success" href="#"><i class="icon-shopping-cart icon-large"></i> Checkout</a>
+        <a class="btn btn-danger" href="#"><i class="icon-trash icon-large"></i> Delete</a>
+      </p>
+      <p>
+        <a class="btn btn-large btn-primary" href="#"><i class="icon-comment"></i> Comment</a>
+        <a class="btn btn-small" href="#"><i class="icon-cog"></i> Settings</a>
+        <a class="btn btn-small btn-info" href="#"><i class="icon-info-sign"></i> Info</a>
+      </p>
+      <div class="well" style="padding: 8px 0;">
+        <ul class="nav nav-list">
+          <li class="active"><a href="#"><i class="icon-home"></i> Home</a></li>
+          <li><a href="#"><i class="icon-book"></i> Library</a></li>
+          <li><a href="#"><i class="icon-pencil"></i> Applications</a></li>
+          <li><a href="#"><i class="icon-cogs"></i> Settings</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="span4">
+      <div class="btn-toolbar">
+        <div class="btn-group">
+          <a class="btn" href="#"><i class="icon-align-left"></i></a>
+          <a class="btn" href="#"><i class="icon-align-center"></i></a>
+          <a class="btn" href="#"><i class="icon-align-right"></i></a>
+          <a class="btn" href="#"><i class="icon-align-justify"></i></a>
+        </div>
+        <div class="btn-group">
+          <a class="btn btn-primary" href="#"><i class="icon-user"></i> User</a>
+          <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="icon-caret-down"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+            <li><a href="#"><i class="icon-trash"></i> Delete</a></li>
+            <li><a href="#"><i class="icon-ban-circle"></i> Ban</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="i"></i> Make admin</a></li>
+          </ul>
+        </div>
+      </div>
+      <form>
+        <div class="control-group">
+          <div class="controls">
+            <div class="input-prepend">
+              <span class="add-on"><i class="icon-envelope"></i></span>
+              <input class="span2" id="inputIcon" type="text" placeholder="Email address">
+            </div>
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="controls">
+            <div class="input-prepend">
+              <span class="add-on"><i class="icon-key"></i></span>
+              <input class="span2" id="inputIcon2" type="text" placeholder="Password">
+            </div>
+          </div>
+        </div>
+      </form>
+      <div>
+        <span class="rating">
+          <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="page-header">New Styles in 3.0</h3>
+  <div class="row">
+    <div class="span4">
+      <i class="icon-quote-left icon-4x pull-left icon-muted"></i>
+      Use a few of the new styles together, and you've got easy pull quotes or a great introductory article image.
+      Or spinning icons for loading and refreshing content. Or fun big icons in multi-line buttons. Lots of new possibilities.
+    </div>
+    <div class="span4">
+      <div class="well well-large well-transparent lead">
+        <i class="icon-spinner icon-spin icon-2x pull-left"></i> Spinner icon when loading content...
+      </div>
+    </div>
+    <div class="span4">
+      <p>
+        <a class="btn btn-large btn-danger" href="#"><i class="icon-flag icon-2x pull-left"></i>Font Awesome<br>Version 3.0</a>
+      </p>
+      <a class="btn btn-primary" href="#"><i class="icon-refresh icon-spin"></i> Synchronizing Content...</a>
+    </div>
+  </div>
+
+<h3 class="page-header">HTMLå®ä¾‹</h3>
+<div class="row">
+  <div class="span12">
+    <h4>Inline Icons</h4>
+  </div>
+  <div class="span3">
+    <p>Place Font Awesome icons just about anywhere with the <code>&lt;i&gt;</code> tag.</p>
+  </div>
+  <div class="span9">
+    <div class="well well-transparent">
+      <div style="font-size: 24px; line-height: 1.5em;">
+        <i class="icon-camera-retro"></i> icon-camera-retro
+      </div>
+    </div>
+<pre class="prettyprint linenums">
+&lt;i class="icon-camera-retro"&gt;&lt;/i&gt; icon-camera-retro
+</pre>
+    <div class="alert alert-info"><i class="icon-info-sign"></i> Icon classes are echoed via CSS :before.</div>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>æ›´å¤§çš„å›¾æ ‡</h4>
+  </div>
+  <div class="span3">
+    <p>
+      é€šè¿‡ç»™å›¾æ ‡è®¾ç½® <code>icon-large</code>ã€<code>icon-2x</code>ã€
+      <code>icon-3x</code> æˆ– <code>icon-4x</code> æ ·å¼ï¼Œå¯ä»¥è®©å›¾æ ‡ç›¸å¯¹äºå®ƒæ‰€åœ¨çš„å®¹å™¨å˜å¾—æ›´å¤§ã€‚
+    </p>
+  </div>
+  <div class="span9">
+    <p>
+      é€šè¿‡åº”ç”¨ <code>icon-large</code> (å¢å¤§ 33%), <code>icon-2x</code>,
+      <code>icon-3x</code> æˆ– <code>icon-4x</code> æ ·å¼è®©å›¾æ ‡å˜å¾—æ›´å¤§ã€‚
+    </p>
+    <div class="well well-transparent">
+      <div style="font-size: 24px; line-height: 1.5em;">
+        <p><i class="icon-camera-retro icon-large"></i> icon-camera-retro</p>
+        <p><i class="icon-camera-retro icon-2x"></i> icon-camera-retro</p>
+        <p><i class="icon-camera-retro icon-3x"></i> icon-camera-retro</p>
+        <p><i class="icon-camera-retro icon-4x"></i> icon-camera-retro</p>
+      </div>
+    </div>
+<pre class="prettyprint linenums">
+&lt;p&gt;&lt;i class=&quot;icon-camera-retro icon-large&quot;&gt;&lt;/i&gt; icon-camera-retro&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;icon-camera-retro icon-2x&quot;&gt;&lt;/i&gt; icon-camera-retro&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;icon-camera-retro icon-3x&quot;&gt;&lt;/i&gt; icon-camera-retro&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;icon-camera-retro icon-4x&quot;&gt;&lt;/i&gt; icon-camera-retro&lt;/p&gt;
+</pre>
+    <div class="alert alert-info">
+      <i class="icon-info-sign"></i> If your icons are getting chopped off on top and bottom, make sure you have
+      sufficient line-height.
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>Animated Spinner</h4>
+  </div>
+  <div class="span3">
+    <p>
+      Use the <code>icon-spin</code> class to get any icon to rotate. Works best with <code>icon-spinner</code> and
+      <code>icon-refresh</code>.
+    </p>
+  </div>
+  <div class="span9">
+    <div class="well well-large well-transparent lead">
+      <i class="icon-spinner icon-spin"></i> Spinner icon when loading content...
+    </div>
+<pre class="prettyprint linenums">
+&lt;i class=&quot;icon-spinner icon-spin&quot;&gt;&lt;/i&gt; Spinner icon when loading content...
+</pre>
+    <p class="alert alert-info">
+      <i class="icon-info-sign"></i> CSS3 animations aren't supported in IE7 - IE9.
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="span3">
+
+  </div>
+  <div class="span9">
+
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>Bordered & Pulled Icons</h4>
+  </div>
+  <div class="span3">
+    <p>
+      Use <code>icon-border</code> and <code>pull-right</code> or <code>pull-left</code> for easy pull quotes or
+      article graphics.
+    </p>
+  </div>
+  <div class="span9">
+    <div class="well well-large well-transparent">
+      <i class="icon-quote-left icon-4x pull-left icon-muted"></i>
+      Use a few of the new styles together, and you've got easy pull quotes or a great introductory article image.
+      Or spinning icons for loading and refreshing content. Or fun big icons in multi-line buttons. You can combine all
+      of them in any combination to get lots of new possibilities.
+    </div>
+<pre class="prettyprint linenums">
+&lt;i class=&quot;icon-quote-left icon-4x pull-left icon-muted&quot;&gt;&lt;/i&gt;
+Use a few of the new styles together ... lots of new possibilities.
+</pre>
+    <div class="well well-large well-transparent">
+      <i class="icon-flag icon-4x pull-left icon-border"></i>
+      Use a few of the new styles together, and you've got easy pull quotes or a great introductory article image.
+      Or spinning icons for loading and refreshing content. Or fun big icons in multi-line buttons. You can combine all
+      of them in any combination to get lots of new possibilities.
+    </div>
+<pre class="prettyprint linenums">
+&lt;i class=&quot;icon-flag icon-4x pull-left icon-border&quot;&gt;&lt;/i&gt;
+Use a few of the new styles together ... lots of new possibilities.
+</pre>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>æŒ‰é’®</h4>
+  </div>
+  <div class="span3">
+    <p>
+      <a class="btn" href="#">
+        <i class="icon-repeat"></i> Reload</a>
+      <a class="btn btn-success" href="#">
+        <i class="icon-shopping-cart icon-large"></i> Checkout</a>
+    </p>
+    <p>
+      <a class="btn btn-large btn-primary" href="#">
+        <i class="icon-comment"></i> Comment</a>
+      <a class="btn btn-small btn-info" href="#">
+        <i class="icon-info-sign"></i> Info</a>
+    </p>
+    <p>
+      <a class="btn btn-danger" href="#">
+        <i class="icon-trash icon-large"></i> Delete</a>
+      <a class="btn btn-small" href="#">
+        <i class="icon-cog"></i> Settings</a>
+    </p>
+    <p>
+      <a class="btn btn-large btn-danger" href="#"><i class="icon-flag icon-2x pull-left"></i>Font Awesome<br>Version 3.0</a>
+    </p>
+    <p>
+      <a class="btn btn-primary" href="#"><i class="icon-refresh icon-spin"></i> Synchronizing Content...</a>
+    </p>
+
+  </div>
+  <div class="span9">
+    <p>
+      Font Awesome å›¾æ ‡èƒ½å¤Ÿå¾ˆå¥½çš„åº”ç”¨äºæŒ‰é’®ç»„ä»¶ä¸­ã€‚å°†å›¾æ ‡è®¾ç½®çš„å†å¤§ä¹Ÿå¯ä»¥ï¼ŒBootstrapä¸­çš„
+      <code>pull-right</code>ã€ <code>pull-left</code> å’Œ <code>icon-spin</code> æ ·å¼éƒ½å¯ä»¥åº”ç”¨åˆ°å›¾æ ‡ä¸Šã€‚
+    </p>
+<pre class="prettyprint linenums">
+&lt;a class="btn" href="#"&gt;
+  &lt;i class="icon-repeat"&gt;&lt;/i&gt; Reload&lt;/a&gt;
+&lt;a class="btn btn-success" href="#"&gt;
+  &lt;i class="icon-shopping-cart icon-large"&gt;&lt;/i&gt; Checkout&lt;/a&gt;
+&lt;a class="btn btn-large btn-primary" href="#"&gt;
+  &lt;i class="icon-comment"&gt;&lt;/i&gt; Comment&lt;/a&gt;
+&lt;a class="btn btn-small btn-info" href="#"&gt;
+  &lt;i class="icon-info-sign"&gt;&lt;/i&gt; Info&lt;/a&gt;
+&lt;a class="btn btn-danger" href="#"&gt;
+  &lt;i class="icon-trash icon-large"&gt;&lt;/i&gt; Delete&lt;/a&gt;
+&lt;a class="btn btn-small" href="#"&gt;
+  &lt;i class="icon-cog"&gt;&lt;/i&gt; Settings&lt;/a&gt;
+&lt;a class=&quot;btn btn-large btn-danger&quot; href=&quot;#&quot;&gt;
+  &lt;i class=&quot;icon-flag icon-2x pull-left&quot;&gt;&lt;/i&gt;Font Awesome&lt;br&gt;Version 3.0&lt;/a&gt;
+&lt;a class=&quot;btn btn-primary&quot; href=&quot;#&quot;&gt;
+  &lt;i class=&quot;icon-refresh icon-spin&quot;&gt;&lt;/i&gt; Synchronizing Content...&lt;/a&gt;
+</pre>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>æŒ‰é’®ç»„</h4>
+  </div>
+  <div class="span3">
+    <p>
+      <div class="btn-group">
+        <a class="btn" href="#"><i class="icon-align-left"></i></a>
+        <a class="btn" href="#"><i class="icon-align-center"></i></a>
+        <a class="btn" href="#"><i class="icon-align-right"></i></a>
+        <a class="btn" href="#"><i class="icon-align-justify"></i></a>
+      </div>
+    </p>
+  </div>
+  <div class="span9">
+<pre class="prettyprint linenums">
+&lt;div class="btn-group"&gt;
+  &lt;a class="btn" href="#"&gt;&lt;i class="icon-align-left"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a class="btn" href="#"&gt;&lt;i class="icon-align-center"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a class="btn" href="#"&gt;&lt;i class="icon-align-right"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a class="btn" href="#"&gt;&lt;i class="icon-align-justify"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;
+</pre>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>ä¸‹æ‹‰èœå•æŒ‰é’®</h4>
+  </div>
+  <div class="span3">
+    <p>
+    <div class="btn-group open">
+      <a class="btn btn-primary" href="#"><i class="icon-user"></i> User</a>
+      <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
+        <span class="icon-caret-down"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+        <li><a href="#"><i class="icon-trash"></i> Delete</a></li>
+        <li><a href="#"><i class="icon-ban-circle"></i> Ban</a></li>
+        <li class="divider"></li>
+        <li><a href="#"><i class="i"></i> Make admin</a></li>
+      </ul>
+    </div>
+  </div>
+  </p>
+  <div class="span9">
+<pre class="prettyprint linenums">
+&lt;div class="btn-group open"&gt;
+    &lt;a class="btn btn-primary" href="#"&gt;&lt;i class="icon-user"&gt;&lt;/i&gt; User&lt;/a&gt;
+    &lt;a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"&gt;&lt;span class="icon-caret-down"&gt;&lt;/span&gt;&lt;/a&gt;
+    &lt;ul class="dropdown-menu"&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-pencil"&gt;&lt;/i&gt; Edit&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-trash"&gt;&lt;/i&gt; Delete&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-ban-circle"&gt;&lt;/i&gt; Ban&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="divider"&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;i class="i"&gt;&lt;/i&gt; Make admin&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+</pre>
+    <div class="alert alert-info"><i class="icon-info-sign"></i> Don't forget to add the appropriate JavaScript to enable button dropdowns.</div>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>åˆ—è¡¨</h4>
+  </div>
+  <div class="span3">
+    <p>
+    <ul class="icons">
+      <li><i class="icon-ok"></i> Lists</li>
+      <li><i class="icon-ok"></i> Buttons</li>
+      <li><i class="icon-ok"></i> Button groups</li>
+      <li><i class="icon-ok"></i> Navigation</li>
+      <li><i class="icon-ok"></i> Prepended form inputs</li>
+    </ul>
+    </p>
+  </div>
+  <div class="span9">
+    <p>Easily replace individual bullets.</p>
+<pre class="prettyprint linenums">
+&lt;ul class="icons"&gt;
+  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Lists&lt;/li&gt;
+  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Buttons&lt;/li&gt;
+  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Button groups&lt;/li&gt;
+  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Navigation&lt;/li&gt;
+  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Prepended form inputs&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>å¯¼èˆªæ¡</h4>
+  </div>
+  <div class="span3">
+    <div class="well" style="padding: 8px 0;">
+      <ul class="nav nav-list">
+        <li class="active"><a href="#"><i class="icon-home"></i> Home</a></li>
+        <li><a href="#"><i class="icon-book"></i> Library</a></li>
+        <li><a href="#"><i class="icon-pencil"></i> Applications</a></li>
+        <li><a href="#"><i class="icon-cogs"></i> Settings</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="span9">
+    <p>Use Font Awesome icons in navigation to provide helpful visual cues.</p>
+<pre class="prettyprint linenums">
+&lt;ul class="nav nav-list"&gt;
+  &lt;li class="active"&gt;&lt;a href="#"&gt;&lt;i class="icon-home"&gt;&lt;/i&gt; Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-book"&gt;&lt;/i&gt; Library&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-pencil"&gt;&lt;/i&gt; Applications&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-cogs"&gt;&lt;/i&gt; Settings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>Prepended form inputs</h4>
+  </div>
+  <div class="span3">
+    <p>
+    <form>
+      <div class="input-prepend">
+        <span class="add-on"><i class="icon-envelope"></i></span>
+        <input class="span2" type="text" placeholder="Email address">
+      </div>
+      <div class="input-prepend">
+        <span class="add-on"><i class="icon-key"></i></span>
+        <input class="span2" type="password" placeholder="Password">
+      </div>
+    </form>
+    </p>
+  </div>
+  <div class="span9">
+<pre class="prettyprint linenums">
+&lt;form&gt;
+  &lt;div class="input-prepend"&gt;
+    &lt;span class="add-on"&gt;&lt;i class="icon-envelope"&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;input class="span2" type="text" placeholder="Email address"&gt;
+  &lt;/div&gt;
+  &lt;div class="input-prepend"&gt;
+    &lt;span class="add-on"&gt;&lt;i class="icon-key"&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;input class="span2" type="password" placeholder="Password"&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+</pre>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>è‡ªå®šä¹‰ CSS</h4>
+  </div>
+  <div class="span3">
+    <p>æ™®é€šå­—ä½“å¯ä»¥è¢«èµ‹äºˆçš„CSSæ ·å¼ä¹Ÿèƒ½åŒæ ·åº”ç”¨åˆ° Font Awesome ä¸Šã€‚</p>
+  </div>
+  <div class="span9">
+    <p>è¯„å®šæ˜Ÿçº§ (inspired by <a href="javascript:if(confirm('http://css-tricks.com/star-ratings/  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ËüÎ»ÓÚÆğÊ¼µØÖ·ÒÔÉèÖÃµÄ±ß½çÒÔÍâµÄÓò»òÂ·¾¶ÖĞ¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='http://css-tricks.com/star-ratings/'" tppabs="http://css-tricks.com/star-ratings/" target="_blank">CSS Tricks</a>)</p>
+    <div class="well">
+      <span class="rating">
+        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="contribute">
+  <h2 class="page-header">å‘ Font Awesome è´¡çŒ®ä½ æ‰€åˆ›é€ çš„å›¾æ ‡</h2>
+  <div class="row">
+    <div class="span3">
+      <img class="img-rounded" src="contribution-sample.png" tppabs="http://www.bootcss.com/p/font-awesome/assets/img/contribution-sample.png">
+    </div>
+    <div class="span9">
+      <p class="lead">
+        Want to help make Font Awesome even more awesome? Contribute back to the Font Awesome community by designing
+        new pictograms for the set.
+      </p>
+      <p>
+        If selected, you'll retain the CC-BY license to your pictogram and get attribution
+        right here on the Font Awesome site.
+      </p>
+      <h3>How to Submit New Icons</h3>
+      <ol>
+        <li>Download the <a href="icon-flag.pdf" tppabs="http://www.bootcss.com/p/font-awesome/assets/img/icon-flag.pdf">icon-flag.pdf template</a>.</li>
+        <li>
+          Open the PDF in Adobe Illustrator. You'll notice the file has dimensions of 60x56. This is exactly 4x the
+          max icon size of 15 wide by 14 tall. The template is an example of the flag icon to use as a guide.
+        </li>
+        <li>
+          Design your icon. In order to make it into the set, your icon must look pixel perfect. The easiest way to do
+          this is to make sure your line widths in the template are some multiple of 4px. Diagonals are rough, too.
+          Don't split pixels right down the middle, as they blur more when rendering. Zoom out to 25% to get a good idea
+          of how it will render in the font.
+        </li>
+        <li>
+          Submit your icon. Drop me an email at <a href="mailto:dave@davegandy.com">dave@davegandy.com</a>. Make sure to
+          use the subject <code>[Font Awesome] [Icon Contribution] icon-name</code> and attach your PDF file. If your
+          icon makes it into Font Awesome (I'm keeping a very tight reign on quality), I'll ask what contact info you'd
+          like to use for attribution.
+        </li>
+      </ol>
+    </div>
+  </div>
+
+</section>
+
+<section id="roadmap">
+  <h2 class="page-header">è·¯çº¿å›¾</h2>
+  <p>ä¸‹é¢æ˜¯å°†æ¥ç‰ˆæœ¬æ›´æ–°çš„è®¡åˆ’ã€‚</p>
+  <ul class="icons">
+    <li><i class="icon-plus"></i>Easier sub-setting with icon packs.</li>
+    <li><i class="icon-plus"></i>More icons. Have any requests? <a href="javascript:if(confirm('https://github.com/FortAwesome/Font-Awesome/issues  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ÊÇÒ»¸öÊ¹ÓÃÎ´Ö§³ÖĞ­ÒéµÄµØÖ·(ÀıÈç: gopher)¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='https://github.com/FortAwesome/Font-Awesome/issues'" tppabs="https://github.com/FortAwesome/Font-Awesome/issues" target="_blank">Open an issue</a> in the Font Awesome GitHub project.</li>
+    <li><i class="icon-plus"></i>Tricks and tips for super-awesome creative CSS methods, like the star example above.</li>
+  </ul>
+</section>
+
+<section id="license">
+  <h2 class="page-header">ç‰ˆæƒåè®®</h2>
+  <ul>
+    <li>The Font Awesome font is licensed under the <a href="javascript:if(confirm('http://scripts.sil.org/OFL  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ËüÎ»ÓÚÆğÊ¼µØÖ·ÒÔÉèÖÃµÄ±ß½çÒÔÍâµÄÓò»òÂ·¾¶ÖĞ¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='http://scripts.sil.org/OFL'" tppabs="http://scripts.sil.org/OFL" target="_blank">SIL Open Font License - http://scripts.sil.org/OFL</a>.</li>
+    <li>Font Awesome CSS, LESS, and SASS files are licensed under the <a href="javascript:if(confirm('http://opensource.org/licenses/mit-license.html  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ËüÎ»ÓÚÆğÊ¼µØÖ·ÒÔÉèÖÃµÄ±ß½çÒÔÍâµÄÓò»òÂ·¾¶ÖĞ¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='http://opensource.org/licenses/mit-license.html'" tppabs="http://opensource.org/licenses/mit-license.html" target="_blank">MIT License - http://opensource.org/licenses/mit-license.html</a>.</li>
+    <li>The Font Awesome pictograms are licensed under the <a href="javascript:if(confirm('http://creativecommons.org/licenses/by/3.0/  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ËüÎ»ÓÚÆğÊ¼µØÖ·ÒÔÉèÖÃµÄ±ß½çÒÔÍâµÄÓò»òÂ·¾¶ÖĞ¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='http://creativecommons.org/licenses/by/3.0/'" tppabs="http://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0 License - http://creativecommons.org/licenses/by/3.0/</a></li>
+    <li>Attribution is no longer required in Font Awesome 3.0, but much appreciated: <code>Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome</code>.</li>
+  </ul>
+  <p></p>
+  <p></p>
+</section>
+
+<section id="kyruus">
+  <h2 class="page-header"><a href="javascript:if(confirm('http://kyruus.com/  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ËüÎ»ÓÚÆğÊ¼µØÖ·ÒÔÉèÖÃµÄ±ß½çÒÔÍâµÄÓò»òÂ·¾¶ÖĞ¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='http://kyruus.com/'" tppabs="http://kyruus.com/" target="_blank">Kyruus</a></h2>
+  <div class="row">
+    <div class="span7">
+      <p>
+        I'm the lead product designer at Kyruus. I wake up every single day excited about my job.
+        Why? <strong>Kyruus is going to change healthcare.</strong> No exaggeration.
+      </p>
+
+      <p>
+        Kyruus is a well-funded, big data healthcare startup in Boston. We believe that the right data at the right time
+        can help doctors make better decisions. <strong>We believe data can save lives.</strong>
+      </p>
+
+      What I love about Kyruus:
+      <ul class="unstyled">
+        <li><i class="icon-pencil icon-2x pull-left"></i> Product design. From the top of the organization, Kyruus is committed to product design done right. It's awesome.</li>
+        <li><i class="icon-globe icon-2x pull-left"></i> Purpose. Every day, I get to help make the world a better place â€“ a little at a time.</li>
+        <li><i class="icon-group icon-2x pull-left"></i> People. I work with some of the best people I've ever met. More than just smart people. Good people.</li>
+      </ul>
+
+      <p>
+        <strong>Kyruus needs good people.</strong> Designers, app developers, big data masters, & interns that get real responsibility. Come work with me.
+      </p>
+
+      Interested? <a href="mailto:dave@davegandy.com">Email me.</a>
+    </div>
+    <div class="span5">
+      <div class="border pull-right text-align-center">
+        <a href="javascript:if(confirm('http://kyruus.com/  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ËüÎ»ÓÚÆğÊ¼µØÖ·ÒÔÉèÖÃµÄ±ß½çÒÔÍâµÄÓò»òÂ·¾¶ÖĞ¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='http://kyruus.com/'" tppabs="http://kyruus.com/" target="_blank">
+          <i class="icon-medkit"></i><br>
+          Work with me at Kyruus
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="say-thanks">
+  <h2 class="page-header">Say Thanks <small></small></h2>
+  <div class="row">
+    <div class="span12">
+      <p class="lead">
+        <i class="icon-gift icon-4x pull-left"></i>
+        Hopefully you think Font Awesome <em>is</em> awesome. I've put hundreds of hours into the project to give back to the
+        open source community. If you'd like, here are some ways you can tell me thanks for all my hard work.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span4">
+      <h4><a href="#contribute">Contribute Icons</a></h4>
+      <p>
+        <a href="#contribute">Contribute icons</a> to make Font Awesome even awesome-er.
+      </p>
+    </div>
+    <div class="span4">
+      <h4><a href="javascript:if(confirm('http://www.shareagift.com/pages/giftpage.aspx?giftid=2472  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ËüÎ»ÓÚÆğÊ¼µØÖ·ÒÔÉèÖÃµÄ±ß½çÒÔÍâµÄÓò»òÂ·¾¶ÖĞ¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='http://www.shareagift.com/pages/giftpage.aspx?giftid=2472'" tppabs="http://www.shareagift.com/pages/giftpage.aspx?giftid=2472" target="_blank">Help me buy an iMac</a></h4>
+      <p>
+        <a href="javascript:if(confirm('http://www.shareagift.com/pages/giftpage.aspx?giftid=2472  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ËüÎ»ÓÚÆğÊ¼µØÖ·ÒÔÉèÖÃµÄ±ß½çÒÔÍâµÄÓò»òÂ·¾¶ÖĞ¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='http://www.shareagift.com/pages/giftpage.aspx?giftid=2472'" tppabs="http://www.shareagift.com/pages/giftpage.aspx?giftid=2472" target="_blank">Contribute</a> to a shiny
+        new iMac for me to keep making great icons.
+      </p>
+    </div>
+    <div class="span4">
+      <h4><a href="javascript:if(confirm('http://amzn.com/w/G64X58AY416W  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ËüÎ»ÓÚÆğÊ¼µØÖ·ÒÔÉèÖÃµÄ±ß½çÒÔÍâµÄÓò»òÂ·¾¶ÖĞ¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='http://amzn.com/w/G64X58AY416W'" tppabs="http://amzn.com/w/G64X58AY416W" target="_blank">My Amazon Wish List</a></h4>
+      <p>
+        Or pick something straight
+        from <a href="javascript:if(confirm('http://amzn.com/w/G64X58AY416W  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ËüÎ»ÓÚÆğÊ¼µØÖ·ÒÔÉèÖÃµÄ±ß½çÒÔÍâµÄÓò»òÂ·¾¶ÖĞ¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='http://amzn.com/w/G64X58AY416W'" tppabs="http://amzn.com/w/G64X58AY416W" target="_blank">my wish list</a>. Gift cards are great.
+      </p>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="span4">
+        <h2>Contact</h2>
+        <ul class="icons">
+          <li><i class="icon-envelope"></i> Email: <a href="mailto:dave@davegandy.com">Dave Gandy</a></li>
+          <li><i class="icon-twitter"></i> Twitter: <a href="javascript:if(confirm('https://twitter.com/fortaweso_me/  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ÊÇÒ»¸öÊ¹ÓÃÎ´Ö§³ÖĞ­ÒéµÄµØÖ·(ÀıÈç: gopher)¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='https://twitter.com/fortaweso_me/'" tppabs="https://twitter.com/fortaweso_me/" target="_blank">@FortAweso_me</a></li>
+          <li><i class="icon-wrench"></i> Work: Lead Product Designer @ <a href="#kyruus">Kyruus</a></li>
+        </ul>
+      </div>
+      <div class="span8">
+        <h2>Special Thanks</h2>
+        <p>
+          Special thanks to <a href="javascript:if(confirm('https://twitter.com/robmadole/  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ÊÇÒ»¸öÊ¹ÓÃÎ´Ö§³ÖĞ­ÒéµÄµØÖ·(ÀıÈç: gopher)¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='https://twitter.com/robmadole/'" tppabs="https://twitter.com/robmadole/" target="_blank">@robmadole</a> and
+          <a href="javascript:if(confirm('https://twitter.com/supercodepoet/  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ÊÇÒ»¸öÊ¹ÓÃÎ´Ö§³ÖĞ­ÒéµÄµØÖ·(ÀıÈç: gopher)¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='https://twitter.com/supercodepoet/'" tppabs="https://twitter.com/supercodepoet/" target="_blank">@supercodepoet</a> for icon design
+          review, advice, and some backbone.js help.
+        </p>
+        <p>
+          Special thanks to <a target="_blank" href="javascript:if(confirm('https://twitter.com/grantgordon  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ÊÇÒ»¸öÊ¹ÓÃÎ´Ö§³ÖĞ­ÒéµÄµØÖ·(ÀıÈç: gopher)¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='https://twitter.com/grantgordon'" tppabs="https://twitter.com/grantgordon">@grantgordon</a> and
+          <a target="_blank" href="javascript:if(confirm('https://twitter.com/johnsmclay  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ÊÇÒ»¸öÊ¹ÓÃÎ´Ö§³ÖĞ­ÒéµÄµØÖ·(ÀıÈç: gopher)¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='https://twitter.com/johnsmclay'" tppabs="https://twitter.com/johnsmclay">@johnsmclay</a> for developing
+          <a target="_blank"  href="javascript:if(confirm('http://icnfnt.com/  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ËüÎ»ÓÚÆğÊ¼µØÖ·ÒÔÉèÖÃµÄ±ß½çÒÔÍâµÄÓò»òÂ·¾¶ÖĞ¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='http://icnfnt.com/'" tppabs="http://icnfnt.com/">icnfnt</a>, the best way to subset Font Awesome to get just the
+          icons you need.
+        </p>
+        <p>
+        	Font Awesome ä¸­æ–‡æ–‡æ¡£ç”±<a href="javascript:if(confirm('http://www.bootcss.com/  \n\n¸ÃÎÄ¼şÎ´±» Teleport Pro ÏÂÔØ£¬ÒòÎª ËüÎ»ÓÚÆğÊ¼µØÖ·ÒÔÉèÖÃµÄ±ß½çÒÔÍâµÄÓò»òÂ·¾¶ÖĞ¡£  \n\nÄãÏëÒª´Ó·şÎñÆ÷´ò¿ªËüÂğ?'))window.location='http://www.bootcss.com/'" tppabs="http://www.bootcss.com/">Bootstrapä¸­æ–‡ç½‘</a>ç¿»è¯‘æ•´ç†ã€‚
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/template" id="modal-template">
+  <div class="modal hide fade in">
+    <div class="modal-header">
+      <a class="close" data-dismiss="modal"><i class="icon-remove"></i></a>
+      <h4><%= iconName %></h4>
+    </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="span3 icon6">
+          <div class="thumbnail">
+            <div><i class="<%= iconName %>"></i></div>
+            280px
+          </div>
+        </div>
+        <div class="span3 icon5">
+          <div class="thumbnail">
+            <div><i class="<%= iconName %>"></i></div>
+            140px
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span2 icon4">
+          <div class="thumbnail">
+            <div><i class="<%= iconName %>"></i></div>
+            112px
+          </div>
+        </div>
+        <div class="span2 icon3">
+          <div class="thumbnail">
+            <div><i class="<%= iconName %>"></i></div>
+            56px
+          </div>
+        </div>
+        <div class="span1 icon2">
+          <div class="thumbnail">
+            <div><i class="<%= iconName %>"></i></div>
+            28px
+          </div>
+        </div>
+        <div class="span1 icon1">
+          <div class="thumbnail">
+            <div><i class="<%= iconName %>"></i></div>
+            14px
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</script>
+
+<script src="jquery.min.js" tppabs="http://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+<script src="underscore-min.js" tppabs="http://cdn.bootcss.com/underscore.js/1.4.4/underscore-min.js"></script>
+<script src="backbone-min.js" tppabs="http://cdn.bootcss.com/backbone.js/1.0.0/backbone-min.js"></script>
+<script src="prettify.js" tppabs="http://cdn.bootcss.com/prettify/r224/prettify.js"></script>
+<script src="bootstrap.min.js" tppabs="http://cdn.bootcss.com/twitter-bootstrap/2.2.2/bootstrap.min.js"></script>
+<script src="index.js" tppabs="http://www.bootcss.com/p/font-awesome/assets/js/index/index.js"></script>
+
+<script src="projects.js" tppabs="http://www.bootcss.com/p/projects.js"></script>
+
+</body>
+</html>

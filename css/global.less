@@ -1,0 +1,218 @@
+/*整体布局*/
+@clorSkyBlue:#4FD2C2;
+.layout{
+  width: 100%;
+  /*最大宽度*/
+  //max-width: 640px;
+  /*最小宽度*/
+  min-width: 320px;
+  margin:0 auto;
+  background-color: #eee;
+}
+
+.layout{
+  //height: 2000px;
+  /*头部块nav*/
+  nav{
+    background-color: #fff;
+    .container{
+      .navbar-brand{
+        img{
+          width:130px;
+          height: 30px;
+        }
+      }
+    }
+  }
+  .collapse{
+    .nav{
+      line-height: 50%;
+        position: relative;
+      .btn-danger{
+        background-color: @clorSkyBlue;
+        border: 1px solid @clorSkyBlue;
+        padding: 6px 10px;
+        border-radius: 10px;
+
+
+      }
+    }
+    li{
+      a{
+        line-height: 32px;
+        font-weight: bold;
+        color: #000;
+        &:hover{
+          color: @clorSkyBlue;
+        }
+      }
+
+    }
+  }
+  /*主题块*/
+  .main{
+    margin-top: 60px;
+    height: 600px;
+    .container{
+
+      .row{
+
+        .main_row_left{
+             padding: 20px 0 10px ;
+             height: 100%;
+             .main_left{
+               margin: 180px 0 10px;
+             height: 274px;
+             text-align: center;
+               h1{
+                 line-height: 110px;
+               }
+               p{
+                 line-height: 30px;
+                 //margin-left: 180px;
+                 //text-align: left;
+                 text-align: center;
+               }
+               .btn{
+                 padding: 15px 20px;
+               }
+               button{
+                 border: none;
+                 margin-top: 15px;
+                 span{
+                   margin-right: 5px;
+                   display: inline-block;
+                 }
+               }
+               button:first-of-type{
+                   background-color: @clorSkyBlue;
+               }
+               button:last-of-type{
+                   background-color: #6562A7;
+                 margin-left: 20px;
+
+               }
+           }
+         }
+
+        .main_row_right{
+          img{
+            width: 80%;
+            position: absolute;
+            right: 0;
+            top: 300px;
+            z-index: 100;
+            transition: top 1s;
+
+          }
+
+        }
+      }
+    }
+  }
+  /*降低成本,节约时间*/
+  .time{
+      text-align: center;
+    background-color: #fff;
+    .container{
+      margin-top: 20px;
+      .top{
+        span{
+          color: @clorSkyBlue;
+        }
+      }
+      h2{
+        line-height: 60px;
+      }
+      h5{
+        color: #99A6C4;
+        line-height: 40px;
+      }
+    }
+  }
+  /*time_pic*/
+  .time_pic{
+    .container{
+      .row{
+
+        .col-md-3{
+          padding-left: 0;
+          padding-right: 0;
+          border: 1px solid rgba(0, 0, 0, 0.13);
+          img{
+              width: 100%;
+              padding-left: 0;
+              padding-right: 0;
+          }
+          .row{
+            margin-left: 0;
+            margin-right: 0;
+            .col-xs-12{
+              padding: 20px 35px;
+              h3{
+                line-height: 70px;
+              }
+              }
+            .one{
+              background-color: pink;
+            }
+            .two{
+              background:radial-gradient(100px,yellow,skyblue);
+
+
+            }
+            .three{
+              background-color: #11ff98;
+
+            }
+            .four{
+              background-image: linear-gradient(to top left,red,yellow);
+
+            }
+
+
+          }
+        }
+      }
+
+
+    }
+  }
+  /*数据集成为大家*/
+  .number{
+    .container{
+      .row{
+        .col-md-4{
+          .box{
+            background-color: rgba(0, 0, 0, 0.15);
+            text-align: center;
+            border: 1px solid #000;
+            padding: 33px;
+            margin-bottom: 20px;
+            h3{
+              color: @clorSkyBlue;
+              font-size: 40px;
+            }
+            h6{
+              line-height: 50px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
